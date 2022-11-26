@@ -1,7 +1,7 @@
 <template>
   <div class="center">
     <div class="contacts">
-      <h2 style="text-decoration: underline; margin-bottom: 3rem">
+      <h2 style="text-decoration: underline; margin-bottom: 7rem">
         Chats
       </h2>
       <div class="contact">
@@ -65,6 +65,7 @@ export default {
       chatSessions: [],
       sessionID: '',
       messages: [],
+      text: ''
     }
   },
   methods: {
